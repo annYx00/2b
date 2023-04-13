@@ -4,8 +4,8 @@ padding: 0;
 }*
 
 .cabecalho{
-    background-color: rgb(235, 225, 93);
-    color:antiquewhite;
+    background-color: #ebe15d;
+    color:rgb(75, 52, 22);
     display:flex;
     justify-content: center;
     align-items: center;
@@ -20,4 +20,25 @@ padding: 0;
 
 .cabecalho-imagem{
     width: 20%;
+}
+
+.escola-imagem{
+    width: 25%;
+}
+
+.escola{
+    background-image: linear-gradient(#ebe15d, #9e9840) ;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.escola-div-conteudo{
+    width: 35%;
+}
+
+.escola-titulo{
+    padding: 24px 0;
 }
